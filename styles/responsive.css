@@ -1,0 +1,43 @@
+@media (max-width: 380px) {
+    .header-content__title {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .nav__btn, .nav-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    
+
+    .header-content__caption {
+        max-width: 52rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .header {
+        min-height: 100vh;
+        border-bottom-left-radius: 20rem;
+        border-bottom-right-radius: 20rem;
+    }
+    .header-content__title {
+        max-width: 56rem;
+        font-size: 8rem;
+    }
+    .nav__links {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

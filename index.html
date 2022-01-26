@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,44 +13,48 @@
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
+
 <body>
 
     <header class="header">
         <div class="container">
             <nav class="nav">
+                <div class="nav__wrapper">
                     <a href="#" class="app-logo">
                         <img src="images/svgs/logo.svg" alt="Camping Web" class="app-logo__img">
                     </a>
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Home</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Destination</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Near me</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Events</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Blog</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Gallery</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">About</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Contact Us</a>
-                    </li>
-                </ul>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link menu__link--active">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Destination</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Near me</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Events</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Gallery</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="nav-menu">
+                    <h2 class="nav-menu__title">camping web</h2>
                     <ul class="mobile-menu">
                         <li class="mobile-menu__item">
-                            <a href="#" class="mobile-menu__link">Home</a>
+                            <a href="#" class="mobile-menu__link mobile-menu__link--active">Home</a>
                         </li>
                         <li class="mobile-menu__item">
                             <a href="#" class="mobile-menu__link">Destination</a>
@@ -79,21 +84,29 @@
                     </div>
                 </div>
 
-                
-                <div class="header__links">
-                    <a href="#" class="header__link">Sign up</a>
-                    <a href="#" class="header__link header__link--border">Sign in</a>
+
+                <div class="nav__links">
+                    <a href="#" class="nav__link">Sign up</a>
+                    <a href="#" class="nav__link nav__link--border">Sign in</a>
                 </div>
 
                 <div class="nav__btn">
                     <span class="nav__btn-line"></span>
                 </div>
-                
+
             </nav>
+            <div class="header-content">
+                <h1 class="header-content__title">find yourself outside.</h1>
+                <p class="header-content__caption">
+                    book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks and more.
+                </p>
+                <a href="#" class="btn header-content__link">discover</a>
+            </div>
         </div>
 
     </header>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
