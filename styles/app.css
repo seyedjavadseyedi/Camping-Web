@@ -3,6 +3,9 @@
     --white: #fff;
     --grey: #D2D2D2;
     --dark: #3B3735;
+    --primary-font: "Roboto", Arial, Helvetica, sans-serif; 
+    --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif; 
+    --secondary-font: "Archivo Black", Arial, Helvetica, sans-serif; 
 }
 
 html {
@@ -15,7 +18,7 @@ html {
 }
 
 body {
-    font-family: "Roboto";
+    font-family: var(--primary-font);
     font-size: 1.6rem;
     line-height: 1.6;
 }
@@ -54,7 +57,7 @@ a {
     width: 20rem;
     border-radius: 10rem;
     font-size: 1.8rem;
-    font-family: "Roboto Medium";
+    font-family: var(--primary-font-md);
 }
 
 /* 
@@ -254,7 +257,7 @@ a {
 }
 .nav__link {
     color: var(--white);
-    font-family: 'Roboto Medium';
+    font-family: var(--primary-font-md);
     padding: 1rem 2.5rem;
 }
 .nav__link--border {
@@ -339,7 +342,7 @@ a {
 
 .header-content__title {
     font-size: 5rem;
-    font-family: "Archivo Black";
+    font-family: var(--secondary-font);
     max-width: 50rem;
     margin: 0 auto 3rem;
 }
@@ -352,4 +355,10 @@ a {
 
 .header-content__link {
     background: var(--orange);
+    transition: all 200ms ease-in-out;
+}
+
+.header-content__link:hover {
+    color: var(--dark);
+    background: var(--white);
 }
