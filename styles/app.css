@@ -131,8 +131,8 @@ a {
   display: none;
 }
 
-.menu__item {
-}
+/* .menu__item {
+} */
 
 .menu__link {
   padding: 0.5rem;
@@ -257,8 +257,8 @@ a {
   background: var(--white);
 }
 
-.nav-menu__link--border {
-}
+/* .nav-menu__link--border {
+} */
 
 /* 
 
@@ -387,8 +387,8 @@ a {
 
 */
 
-.main {
-}
+/* .main {
+} */
 
 /* 
 
@@ -431,5 +431,5 @@ a {
   font-family: var(--secondary-font);
 }
 
-.service__caption {
-}
+/* .service__caption {
+} */
