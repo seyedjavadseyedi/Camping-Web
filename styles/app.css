@@ -61,6 +61,7 @@ a {
   border-radius: 10rem;
   font-size: 1.8rem;
   font-family: var(--primary-font-md);
+  text-transform: uppercase;
 }
 
 /* 
@@ -429,7 +430,121 @@ a {
 .service__title {
   margin: 1.6rem 0 1rem;
   font-family: var(--secondary-font);
+  text-transform: capitalize;
 }
 
 /* .service__caption {
 } */
+
+
+/* 
+
+-- Destinations section -- 
+
+*/
+
+.destinations {
+  text-align: center;
+  margin: 6rem 0;
+}
+.destinations__logo {
+
+}
+.destination__title {
+  font-size: 4rem;
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+  max-width: 50rem;
+  margin: 3rem auto;
+}
+.destinations__places {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.place {
+  background: var(--white);
+  border-radius: 2rem;
+  padding: 3rem;
+  width: 30rem;
+  margin-bottom: 2rem;
+  color: var(--dark);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-grow: 1;
+}
+.place__banner {
+  position: relative;
+  max-width: 30rem;
+  height: 18rem;
+  margin: 0 auto;
+}
+.place__img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.place__like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--white);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.4rem;
+  cursor: pointer;
+}
+.place__like-icon {
+
+}
+.place__price {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2.5rem;
+  width: 14.5rem;
+  margin: 0 auto;
+  padding: 1.3rem;
+  background: var(--white);
+  border-radius: 1.4rem;
+}
+.place__price-text {
+  color: var(--orange);
+  font-family: var(--primary-font-md);
+}
+.place__title {
+  font-size: 1.8rem;
+  font-family: var(--secondary-font);
+  margin-top: 4rem;
+}
+.place__caption {
+  margin-top: 1rem;
+}
+.place__link {
+  margin-top: 2rem;
+  color: #8D8D8D;
+  background: rgba(141,141,141, 0.1);
+  transition: all 200ms ease-in-out;
+}
+.place__link:hover {
+  color: var(--dark);
+  background: #8D8D8D;
+}
+.destinations__btn {
+  margin-top: 3rem;
+  color: var(--orange);
+  background: transparent;  
+  border: 1px solid var(--orange);
+  transition: all 200ms ease-in-out;
+}
+
+.destinations__btn:hover {
+  color: var(--white);
+  background: var(--orange);
+
+}
