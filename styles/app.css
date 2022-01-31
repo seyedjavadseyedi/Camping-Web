@@ -417,7 +417,7 @@ a {
   align-items: center;
   justify-content: center;
   color: var(--dark);
-  padding: 0 4rem;
+  padding: 0 2rem;
   flex-grow: 1;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -436,7 +436,6 @@ a {
 /* .service__caption {
 } */
 
-
 /* 
 
 -- Destinations section -- 
@@ -448,7 +447,8 @@ a {
   margin: 6rem 0;
 }
 .destinations__logo {
-
+  width: 8rem;
+  height: 8rem;
 }
 .destination__title {
   font-size: 4rem;
@@ -466,13 +466,14 @@ a {
 .place {
   background: var(--white);
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 2rem;
   width: 30rem;
   margin-bottom: 2rem;
   color: var(--dark);
   margin-left: 1rem;
   margin-right: 1rem;
   flex-grow: 1;
+  overflow: hidden;
 }
 .place__banner {
   position: relative;
@@ -499,8 +500,10 @@ a {
   border-radius: 1.4rem;
   cursor: pointer;
 }
-.place__like-icon {
-
+/* .place__like-icon {
+} */
+.place__like-icon--active {
+  fill: #e76f51;
 }
 .place__price {
   position: absolute;
@@ -521,30 +524,33 @@ a {
   font-size: 1.8rem;
   font-family: var(--secondary-font);
   margin-top: 4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .place__caption {
   margin-top: 1rem;
 }
 .place__link {
   margin-top: 2rem;
-  color: #8D8D8D;
-  background: rgba(141,141,141, 0.1);
+  color: #8d8d8d;
+  background: rgba(141, 141, 141, 0.1);
   transition: all 200ms ease-in-out;
 }
 .place__link:hover {
   color: var(--dark);
-  background: #8D8D8D;
+  background: #8d8d8d;
 }
 .destinations__btn {
   margin-top: 3rem;
   color: var(--orange);
-  background: transparent;  
+  background: transparent;
   border: 1px solid var(--orange);
   transition: all 200ms ease-in-out;
 }
 
 .destinations__btn:hover {
-  color: var(--white);
+  color: var(--bg-app);
   background: var(--orange);
-
 }
