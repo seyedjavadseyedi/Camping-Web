@@ -2,17 +2,35 @@
     .header-content__title {
         font-size: 4rem;
     }
+
+    .newsletter__title {
+        max-width: 16rem;
+        margin: 1.5rem auto;
+    }
 }
 
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {
-    .nav__btn, .nav-menu {
+
+    .nav__btn,
+    .nav-menu {
         display: none;
     }
 
     .menu {
         display: flex;
+    }
+    .newsletter {
+        flex-direction: row;
+    }
+    .newsletter__content {
+        flex-basis: 65%;
+        text-align: left;
+        padding-right: 5rem;
+    }
+    .newsletter__banner {
+        flex-basis: 35%;
     }
 
 }
@@ -25,8 +43,15 @@
     .header-content__caption {
         max-width: 52rem;
     }
+    .newsletter__content {
+        padding-right: 8rem;
+    }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .newsletter {
+        padding: 3rem 10rem;
+    }
+}
 
 @media (min-width: 1400px) {}
